@@ -2,6 +2,7 @@
 [![image](https://img.shields.io/pypi/v/pyhubitat.png)](https://pypi.org/project/pyhubitat/)
 [![image](https://img.shields.io/pypi/pyversions/pyhubitat.png)](https://pypi.org/project/pyhubitat/)
 [![image](https://img.shields.io/pypi/l/pyhubitat.png)](https://pypi.org/project/pyhubitat/)
+
 A python library for interacting with the Hubitat API
 
 ## Highlights
