@@ -6,7 +6,7 @@
 A python library for interacting with the Hubitat API
 
 ## Highlights
-This package is new and rapidly developing.  It currently exposes only the Hubitat "Maker API" which is limited to the functionality of the devices, not the hub.  The official Maker API docs can be found [here](https://docs.hubitat.com/index.php?title=Maker_API).
+This package is new and rapidly developing.  It currently exposes only the Hubitat 'Maker API' which is limited to the functionality of the devices, not the hub.  The official Maker API docs can be found [here](https://docs.hubitat.com/index.php?title=Maker_API).
 Endpoints exposed include:
 - Get All Devices (/devices)
 - Get All Devices with Full Details (/devices/all)
@@ -39,8 +39,8 @@ pprint.pprint(devices)
 
 ### Send Command
 ```
-response1 = ph.send_command(5, "on")
-response2 = ph.send_command(6, "setLevel", 50)
+response1 = ph.send_command(5, 'on')
+response2 = ph.send_command(6, 'setLevel', 50)
 ```
 
 ## Note about TLS/SSL

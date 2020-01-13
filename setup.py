@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
-with open("README.md", "r") as fh:
+with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setup(name='pyhubitat',
       version='0.0.3',
       description='A python library for interacting with the Hubitat API',
       long_description=long_description,
-      long_description_content_type="text/markdown",
+      long_description_content_type='text/markdown',
       url='https://github.com/danielorf/pyhubitat',
       author='Daniel Orf',
       author_email='danielorf@gmail.com',
@@ -15,9 +15,9 @@ setup(name='pyhubitat',
       packages=find_packages(),
       classifiers=[
           'Development Status :: 3 - Alpha',
-          "Programming Language :: Python :: 3",
-          "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
-          "Operating System :: OS Independent",
+          'Programming Language :: Python :: 3',
+          'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+          'Operating System :: OS Independent',
       ],
       keywords='hubitat home automation',
       install_requires=['httpx'],
