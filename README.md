@@ -22,8 +22,10 @@ Endpoints exposed include:
 ## Usage
 ### Initialization
 ```
-from pyhubitat import MakerAPI
+import os
 import pprint
+
+from pyhubitat import MakerAPI
 
 HUB_TOKEN = os.environ['HUBITAT_TOKEN']
 HUB_URL_EXAMPLE = 'https://192.168.1.39/apps/api/24'  # Follow the generic format of 'https://[hub-ip-address-or-hostname]/apps/api/[app-id]'
