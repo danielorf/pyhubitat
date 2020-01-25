@@ -1,6 +1,6 @@
-import httpx
 import os
 import time
+import httpx
 
 class RuleMachineAPI:
 
@@ -26,5 +26,4 @@ class RuleMachineAPI:
         Lists available rules
         """
         r = self._request_sender('getRuleList')
-        print(r.headers)
         return r.json()
