@@ -1,4 +1,5 @@
 # pyhubitat
+![Python application](https://github.com/danielorf/pyhubitat/workflows/Python%20application/badge.svg?branch=master)
 [![image](https://img.shields.io/pypi/v/pyhubitat.png)](https://pypi.org/project/pyhubitat/)
 [![image](https://img.shields.io/pypi/pyversions/pyhubitat.png)](https://pypi.org/project/pyhubitat/)
 [![image](https://img.shields.io/pypi/l/pyhubitat.png)](https://pypi.org/project/pyhubitat/)
