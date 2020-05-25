@@ -88,3 +88,31 @@ class MakerAPI:
                 status[name] = {'currentValue': attribute.get('currentValue'), 'dataType': attribute.get('dataType')}
 
         return status
+
+    def modes(self):
+        """
+        Lists available modes
+        """
+        r = self._request_sender('modes')
+        return r.json()
+
+    def hsm_status(self):
+        """
+        Returns hsm status
+        """
+        r = self._request_sender('hsm')
+        return r.json()
+
+    def modes_set(self, mode_id):
+        """
+        Sets mode based on ID
+        """
+        r = self._request_sender('modes/{}'.format(mode_id))
+        return r.json()
+
+    def hsm_set(self, status):
+        """
+        Sets hsm status
+        """
+        r = self._request_sender('hsm/{}'.format(status))
+        return r.json()
