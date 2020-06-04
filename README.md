@@ -46,5 +46,14 @@ response1 = ph.send_command(5, 'on')
 response2 = ph.send_command(6, 'setLevel', 50)
 ```
 
+### Hubitat update 2.0.9
+With Hubitat update 2.0.9, Maker API supports Modes and HSM as endpoints.  pyhubitat has been updated to support calles to these endpoints.
+...
+#devices = ph.modes()
+#devices = ph.modes_set(1)                   # example modes 1=Day, 2=Evening, 3=Night, 4=Away
+#devices = ph.hsm_status()
+#devices = ph.hsm_set('disarm')              # example hsm status codes disarm, armNight, armAway
+...
+
 ## Note about TLS/SSL
 The Hubitat hub uses a self-signed root certificate for https and I see no reasonable way to add your own.  Despite this, it is still recommended that you enable login auth on the hub and use the https API url since your API token is sent with every request.
